@@ -51,7 +51,7 @@ export function Sidebar() {
     // <div className="flex">
     <nav
       id="sidebar"
-      className="fixed right-0 bottom-0 left-0 z-20 flex h-[calc(100%-5rem)] w-full flex-col items-center justify-evenly bg-zinc-500"
+      className="fixed right-0 font-semibold bottom-0 left-0 z-20 flex h-[calc(100%-5rem)] w-full flex-col items-center justify-evenly bg-zinc-950"
     >
       <a href="#" onClick={handleToggleMenu} className="texto">
         Opção 1
