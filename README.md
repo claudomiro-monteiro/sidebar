@@ -1,69 +1,79 @@
-# React + TypeScript + Vite
+# Sidebar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto **Sidebar**, desenvolvido com **React**, **TailwindCSS** e animações utilizando **GSAP**, focado em criar um menu lateral moderno, responsivo e com transições suaves. Ideal para projetos que precisam de uma navegação elegante e intuitiva.
 
-Currently, two official plugins are available:
+---
+![Portfolio](/src/assets/background.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologias
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+* **React 19**
+* **Vite 7**
+* **TailwindCSS 4**
+* **GSAP + @gsap/react**
+* **Hamburger React** (ícone animado do menu)
+* **TypeScript**
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 📦 Scripts
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+| Comando        | Descrição                            |
+| -------------- | ------------------------------------ |
+| `pnpm dev`     | Inicia o servidor de desenvolvimento |
+| `pnpm build`   | Gera a build de produção             |
+| `pnpm preview` | Visualiza a build gerada             |
+
+---
+
+## 📁 Estrutura esperada
+
+O projeto segue uma estrutura simples baseada em Vite:
+
+```
+src/
+  components/
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📘 Sobre o Projeto
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Este projeto tem como finalidade apresentar um **sidebar animado**, com foco em:
+
+* Movimentações fluidas usando GSAP;
+* Animação do botão hamburguer;
+* Estilo moderno utilizando TailwindCSS;
+* Arquitetura minimalista e fácil de expandir.
+
+---
+
+## 🔧 Pré-requisitos
+
+Certifique-se de ter instalado:
+
+* **Node.js** 18+
+* **PNPM** (recomendado)
+
+---
+
+## ▶️ Como rodar o projeto
+
+```bash
+pnpm install
+pnpm dev
 ```
+
+---
+
+## 📄 Licença
+
+Este projeto é distribuído sob a licença **ISC**.
+
+---
+
+Feito com 💙 utilizando React + Vite.
+
+Caso queira adicionar prints, badges, arquitetura, documentação da sidebar ou GIF de demonstração, posso inserir tudo no README!
