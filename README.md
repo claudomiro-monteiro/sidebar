@@ -3,7 +3,7 @@
 Projeto **Sidebar**, desenvolvido com **React**, **TailwindCSS** e animações utilizando **GSAP**, focado em criar um menu lateral moderno, responsivo e com transições suaves. Ideal para projetos que precisam de uma navegação elegante e intuitiva.
 
 ---
-![Portfolio](/src/assets/background.png)
+![Portfolio](/src/assets/background.webm)
 
 ---
 
